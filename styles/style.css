@@ -1,0 +1,184 @@
+body{
+    font-family: 'Roboto', sans-serif;
+     
+   
+    
+    
+}
+
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+/* 
+header{
+    background-image: url(/images/background.png);
+     background-repeat: no-repeat;
+    background-position: top right;
+    background-size:auto; 
+    max-width: 1440px;
+    margin: 0 auto;
+    
+
+    
+    
+    
+}
+.header__container{
+    padding-bottom: 387px;
+    padding-top: 302px;
+    max-width: 1440px;
+    margin: 0 auto; 
+} 
+
+.header__nav{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.header__nav .nav_bar a{
+    text-decoration: none;
+    font-size: 14px;
+    
+
+}
+.header__nav .nav_bar {
+    display: flex;
+    gap: 60px;
+}  */
+
+
+/* header */
+
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+
+
+.header__container ul{
+    display: flex;
+    padding:0;
+    margin: 0;
+list-style: none;
+gap: 60px;
+}
+
+
+.header__container ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#505F98;
+}
+
+
+.header__container .header__logo{
+    margin-right: 120px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #37447E;
+    margin-bottom: 8px;
+}
+
+
+.header__container .header__buyButton {
+    font-size: 12px;
+    text-decoration: none;
+     background-color: #111B47; 
+    color: #fff;
+    padding:  9px 56px;
+    border-radius: 30px;
+    transition: 0.5s;
+   
+}
+
+
+
+
+
+
+.header__middle__container{
+    padding-top: 242px;
+    max-width: 540px;
+    padding-bottom: 387px;
+}
+
+
+.header__middle__container h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    line-height: 66px;
+}
+
+
+.header__middle__container p{
+    margin: 0;
+    line-height: 30px;
+    text-align:left;
+    padding-bottom: 17px;
+}
+
+
+.header__middle__container--links{
+    display: flex;
+    justify-content: center;
+}
+
+
+.wrapper__links{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+
+.wrapper__links .upperButton{
+    padding: 8px 40px;
+    background-color: #111B47;
+    border-radius: 2px;
+    color: #fff;
+}
+
+
+.wrapper__links .lowerButton{
+    padding: 8px 54px;
+    background-color:  rgba(0, 0, 0, 0);
+    color: #091133;
+    border-color: #091133;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+
+}
+
+
+
+.header__background{
+    background-image: url(/images/background.png);
+    width: 1243px;
+    height: 1161px;
+     z-index: -1; 
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: right top;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
