@@ -293,21 +293,6 @@ font-weight: 500px;
 
 /* section5 */
 
-/* .background__section5{
-    background-color: lightblue;
-    height: 300px;
-    position: absolute;
-    width: 100%;
-    margin: 0 auto;
-    left: 0;
-} */
-
-/* .section5{
-    background-color: aqua;
-    width: 100%;
-    left: 0;
-    right: 0;
-} */
 
 .section5__container{
     display: flex;
@@ -376,8 +361,13 @@ text-align: center;
 }
 
 .section5{
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
+    background-image: url(/images/section5__background.png);
+    background-size: cover;
+   
 }
+
+
 
 /* footer */
 
@@ -458,15 +448,3 @@ footer{
 .bottom__nav ul li{
     display: inline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
