@@ -2,9 +2,10 @@ body{
     font-family: 'Roboto', sans-serif;
      
    
-    
+
     
 }
+
 
 .wrapper{
     max-width: 1110px;
@@ -448,3 +449,6 @@ footer{
 .bottom__nav ul li{
     display: inline;
 }
+
+
+
